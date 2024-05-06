@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caleb Mason</title>
+    <title>Caleb Mason - Software Engineer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f8f9fa;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1552058544-6cbdb6e85407');
+            background-size: cover;
+            background-position: center;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -29,13 +32,69 @@
         .profile-info p {
             margin-bottom: 10px;
         }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            margin-bottom: 5px;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .education {
+            margin-top: 20px;
+        }
+        .education h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .education p {
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>About Me</h1>
+        <img src="./a7821520-6ab2-4b01-b1af-d160dae8f685.jpg" alt="Caleb Mason" class="profile-img"/>
         <div class="profile-info">
             <p>My name is Caleb Mason and I am a software engineer working at Kenvue.</p>
+            <p>I specialize in Typescript and React, and I contribute to open-source projects such as Spotify's Backstage.</p>
+            <p>At Kenvue, I use Backstage to develop an internal developer website.</p>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <p>New Jersey Institute of Technology</p>
+            <p>Bachelor's in Electrical Engineering, December 2022</p>
+            <p>GPA: 3.9</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript (TypeScript)</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>HTML5 & CSS3</li>
+                <li>RESTful APIs</li>
+                <li>Git & GitHub</li>
+                <li>Agile Methodologies</li>
+                <li>Unit Testing (Jest, Enzyme)</li>
+                <li>UI/UX Design Principles</li>
+                <li>Backstage</li>
+                <li>Electrical Engineering Principles</li>
+                <li>Database Management</li>
+                <li>Project Management</li>
+            </ul>
         </div>
     </div>
 </body>
